@@ -3,6 +3,10 @@
 .home {
 
   .intro {
+    .main-header{
+      border-radius: 20px;
+      width:100%;
+    }
 
     h2 {
       padding: 15px;
@@ -18,12 +22,23 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-
     img {
       width: 28%;
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+      @media screen and (max-width:768px){
+        .auriculares{
+          width:95%;
+        }
+        .tecnologia{
+          display: none;
+        }
+        .ondas{
+          display:none;
+        }
+
+      }
     }
   }
 
@@ -58,6 +73,17 @@
       }
 
       .btn {
+       background-color:#22283A ;
+       color: #e0e0e0;
+       padding: 15px;
+       border-radius: 10px;
+       width: fit-content;
+       font-size: 1.6rem;
+       cursor: pointer;
+         &:hover{
+           background-color:#e0e0e0 ;
+           color:#22283A ;
+         }
       }
     }
 
