@@ -1,0 +1,83 @@
+
+.contenedorCards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #457b9d;
+    padding-top: 30px;
+    padding-bottom: 18.6%;
+}
+.card{
+    background-color:#8ecae69c;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    min-width: fit-content;
+    height: fit-content;
+    margin: 30px 25px;
+    border: 1px solid rgba(26, 43, 59, 0.815);
+    border-radius: 8px;
+    padding: 2% 3%;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cityName{
+    font-size: 30px;
+}
+
+.header button{
+    background-color: rgb(122, 37, 54);
+    color: rgba(255, 248, 220, 0.685);
+    border-color:rgb(94, 28, 41) ;
+    border-radius: 5px;
+    height: min-content;
+    padding: 1% 2%;
+
+}
+.card button:hover{
+        cursor: pointer;
+        background-color: rgba(216, 154, 154, 0.685);
+        color: rgb(122, 37, 54) ;
+        border-color: rgba(26, 43, 59, 0.815);
+        transition: .7s;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+}
+.temp{
+    font-size: 17px;
+    margin:2%;
+}
+.searchBar{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #457b9d;
+}
+.searchBar button{
+    background-color: rgb(122, 37, 54);
+    color: rgba(255, 248, 220, 0.685);
+    border-color:rgb(94, 28, 41) ;
+    border-radius: 6px;
+    padding-bottom: 2px;
+    margin-left: 10px;
+}
+.searchBar button:hover{
+    cursor: pointer;
+    background-color: rgba(216, 154, 154, 0.685);
+    color: rgb(122, 37, 54) ;
+    border-color: rgba(26, 43, 59, 0.815);
+    transition: .7s;
+
+}
+.searchBar input{
+    background-color: rgba(255, 255, 255, 0.822) ;
+    border-radius: 6px;
+    border-color: rgb(151, 145, 119) ;
+}
